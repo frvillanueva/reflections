@@ -1,0 +1,47 @@
+Viewing a difference between two versions of a file helped me
+see the bug that was introduced, because the output from the
+shell focused on the differences between the two files. Since the old
+version worked, I could see the differences between that and the new
+version. It also seemed like it might be easier to save different
+versions early and often as well as to test often, so when you see 
+the differences between the two you will not be overwhelmed, even if the
+shell can focus on all of the differences. 
+
+Having easy access to the entire history of a file can make you a more
+efficient programmer in the long term because you can see all of the
+changes made to a file, and maybe be able to see patterns in your
+revisions and find ways to improve on them so next time you can
+program something more efficiently or smarter the next time you
+develop something similar.
+
+The pros of manually choosing when to create a commit vs having a
+version automatically saved is that you can create more logical save
+points for each version in your history. That way when you look at the
+different versions and compare you can better see the differences
+between versions. A con of manually choosing is that you may lose work
+if your computer crashes or shuts down before you are able to save, or
+you forget to save and lose the work before committing.
+
+Some version control systems like Git allow saving multiple files in one
+commit while others like Google Docs treat each file separately, because
+systems like Git are meant to support projects which serve a purpose
+but can have multiple related files. For those projects those multiple
+files usually affect each other and one file can have an impact on the
+others. Version control systems like Google Docs typically store
+documents that are separate from each other - one does not affect the
+other.
+
+You can use the git log command to view the version history of files -
+for a particular file you can see the version number, the committer,
+the date committed and a description of the commit. You can use the git
+diff command to see the detailed differences and changes between any
+two versions of that file, including what was added and what changed.
+
+Using version control can make you more confident to make changes that
+could break something because you can either revert back to a previous
+version, or find the version that breaks the code and fix that part of
+the code. If you find the version that breaks, you can compare it with
+the previous version before that and see what lines of code have been
+changed and could possibly have broken the program.
+
+Now that I have my workspace set up, I want to try using Git for my own programs and projects, after completing the appropriate Web Development nanodegree courses.
