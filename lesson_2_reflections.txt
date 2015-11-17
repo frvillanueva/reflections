@@ -30,3 +30,11 @@ restructuring to your file or program, while keeping a working version.
 One example we went through is testing out an easy mode, or having a
 version in a different language. Branches would help by differentiating
 and making clear what the different versions are.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help with visualizing the branch structure because they show a
+visual representation of the branches made based on the commits made.
+They can show where branches originate from and what commits are
+associated with each branch, in case you want to go to a particular
+state of time or condition when you are editing/looking at your code.
