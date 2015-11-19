@@ -38,3 +38,29 @@ visual representation of the branches made based on the commits made.
 They can show where branches originate from and what commits are
 associated with each branch, in case you want to go to a particular
 state of time or condition when you are editing/looking at your code.
+
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+When two branches are merged together, the code changes from both are
+combined. Each of the tips of the merged branches look at the parent,
+compare what is similar and what has changed, and combine appropriately
+The branch that was checked out originally is now the branch which has
+the merged items. You can still see the original commits from each
+branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The pros of Git's automatic merging is that it will merge branches
+together without you having to look through the code manually and
+seeing what changes were made. This allows a faster way of
+collaboration and allows you to make experimental changes to your code.
+The con is that it is not the most robust method of merging - there can
+be merge conflicts, in the case where both branches have modified a
+common set of code inherited from their parents. The pros of manually
+merging is that you can have finer control of what gets added and what
+does not in your merged code, and you can fine tune it before merging.
+The con is that if you have a large set of code, or if you are
+collaaborating with someone, it may take a long time in order to merge.
+You may also run into manual errors, if you accidentally delete a set
+of code that was not meant to be deleted.
