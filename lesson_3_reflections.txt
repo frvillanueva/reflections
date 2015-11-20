@@ -34,3 +34,12 @@ look and compare what has changed from the GitHub version, to the
 version you have stored locally, and review it without having to merge
 into your local copy at this point in order to be able to see the
 changes.
+
+How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+Collaboration without Git or GitHub would require a similar version
+control system, or at the very least regular and open communication. It
+would be easier to set up and customize the collaboration system the
+way you would want it, but if you don't have a similar system it would
+probably harder to set up any advanced or streamlined functions.
