@@ -35,7 +35,7 @@ version you have stored locally, and review it without having to merge
 into your local copy at this point in order to be able to see the
 changes.
 
-How would you collaborate without using Git or GitHub? What would be
+**How would you collaborate without using Git or GitHub? What would be
 easier, and what would be harder?
 
 Collaboration without Git or GitHub would require a similar version
@@ -43,3 +43,14 @@ control system, or at the very least regular and open communication. It
 would be easier to set up and customize the collaboration system the
 way you would want it, but if you don't have a similar system it would
 probably harder to set up any advanced or streamlined functions.
+
+**When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+You may want to make changes in a separate branch when you are working
+on something experimental or you are collaborating with others. This
+way code can be examined, tested, and commented on before it gets
+accepted into the master branch. You may want to make changes directly
+in the master branch if you are doing bug fixes, or editing typos or
+adding/editing comments. This would be faster than making a separate
+branch, for something relatively simple.
